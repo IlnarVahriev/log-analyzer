@@ -1,4 +1,3 @@
-// Импортируем именно Timestamp, как названо у тебя в parser.js
 const { parseLine, Timestamp } = require('../src/parser');
 
 describe('parseLine', () => {
