@@ -3,7 +3,6 @@
 const fs = require('fs');
 const readline = require('readline');
 
-// Проверь, чтобы названия совпадали с файлами в папке src!
 const { parseLine } = require('./src/parser');
 const { matches } = require('./src/filter');
 const { createAggregator } = require('./src/agregator'); 
