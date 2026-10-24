@@ -65,6 +65,6 @@ describe('Timestamp', () => {
   test('некорректный', () => {
     expect(Timestamp('2026-13-01T00:08:59Z')).toBe(false);
     expect(Timestamp('abc')).toBe(false);
-    expect(Timestamp(null)).toBe(false); // Это сработает, благодаря защите в parser.js
+    expect(Timestamp(null)).toBe(false);
   });
 });
